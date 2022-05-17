@@ -102,12 +102,6 @@ footer a{
 footer a:hover{
     color: rgb(112, 112, 112);
 }
-
-@media(max-width: 777px){
-    .card{
-        width: 250px;
-    }
-}
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -150,6 +144,11 @@ iframe{
 @keyframes card{
 
     0%{
-        transform: translateY(calc(10px - 800px));      
+        transform: translateY(calc(0px - 800px));      
+    }
+}
+@media(max-width: 777px){
+    .card{
+        width: 250px;
     }
 }
